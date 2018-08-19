@@ -306,7 +306,7 @@ class BDCMF:
             elbo_list.append(elbo)
             logging.info("[#epoch=%06d], elbo=%.5f, neg_likelihood=%.5f, gen_loss=%.5f" % (
                 epoch, elbo, likelihood - gen_loss * n, gen_loss))
-            self.save_model(weight_path="model/bdcmf", bdcmf_path="model/bdcmf_{}".format(epoch))
+            self.save_model(weight_path="model/bdcmf", bdcmf_path="model/matrix/bdcmf_{}".format(epoch))
 
         loss_list = np.array(elbo_list)
         np.savetxt('model/elbo_list.txt',elbo_list)

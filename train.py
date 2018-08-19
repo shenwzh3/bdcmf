@@ -15,10 +15,10 @@ def load_data():
   data["content0"] = variables['X0']
   data["content1"] = variables['X1']
 
-  data["train_users"] = load_rating(data_dir + "train_users.dat")
-  data["train_items"] = load_rating(data_dir + "train_items.dat")
-  data["test_users"] = load_rating(data_dir + "test_users.dat")
-  data["test_items"] = load_rating(data_dir + "test_items.dat")
+  data["train_users"] = load_rating(data_dir + "train_users_45.dat")
+  data["train_items"] = load_rating(data_dir + "train_items_45.dat")
+  data["test_users"] = load_rating(data_dir + "test_users_45.dat")
+  data["test_items"] = load_rating(data_dir + "test_items_45.dat")
   data["friend"] = load_rating(data_dir + "social.dat")
 
   return data
@@ -45,7 +45,7 @@ params.b = 0.01
 params.c = 1
 params.d = 0.01
 params.M = 300
-params.n_epochs = 10
+params.n_epochs = 100
 params.max_iter = 1
 
 

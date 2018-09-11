@@ -1,4 +1,4 @@
-# bdcmf
+# BDCMF
 
 The is the code for"Bayesian Deep Collaborative Matrix Factorization(BDCMF)" (under review). It consists of two parts: a matlab component and a Python component. 
 

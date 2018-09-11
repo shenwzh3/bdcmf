@@ -8,7 +8,7 @@ Requirements:
     Tensorflow 1.7
     Matlab
     
-To run "train.py". It generates two '.mat' files: m_U.mat and m_v.mat which are latent factors of users and items, respectively. Then you can use the two files to evaluate recommendation performance on test data.
+To run "train.py". It generates two '.mat' files: U.mat and V.mat which are latent factors of users and items, respectively. Then you can use the two files to evaluate recommendation performance on test data.
 
 #Baselines     
 For strong baseline CDL, we use the code provided the author. You can dowlond from https://github.com/js05212/CDL    

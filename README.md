@@ -1,11 +1,11 @@
 # BDCMF
 
 The is the code for"Bayesian Deep Collaborative Matrix Factorization(BDCMF)" (under review). It consists of two parts: a matlab component and a Python component. 
-
 Requirements:
     Python 3.4
     Tensorflow 1.7
     Matlab
+    
 To run "train.py". It generates two '.mat' files: m_U.mat and m_v.mat which are latent factors of users and items, respectively. Then you can use the two files to evaluate recommendation performance on test data.
 
 #Baselines     
